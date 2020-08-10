@@ -11,7 +11,7 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<div class="logo"><?php echo gethostname(); ?><a href="index.html"> :Simple Web App</a></div>
+				<div class="logo"><?php echo gethostname(); ?><a href="index.html"> : Simple Web App</a></div>
 				<a href="#menu">Menu</a>
 			</header>
 
