@@ -10,14 +10,14 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<div class="logo"><?php echo gethostname(); ?><a href="index.html"> : Simple Web App</a></div>
+				<div class="logo"><?php echo gethostname(); ?><a href="index.php"> : Simple Web App</a></div>
 				<a href="#menu">Menu</a>
 			</header>
 
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="index.php">Home</a></li>
 				</ul>
 			</nav>
 
