@@ -29,7 +29,7 @@
 					<div class="inner">
 						<header>
 							<h2>Welcome!</h2>
-							<?php $output = shell_exec('pg_isready --host=core-exercise-test.cgmpnbbe2fyd.us-east-1.rds.amazonaws.com --port=5432 --username=postgres --dbname=postgres'); echo "<pre>$output</pre>"; ?>
+							<?php $output = shell_exec('pg_isready --host=$DB_ENDPOINT --port=5432 --username=postgres --dbname=postgres'); echo "<pre>$output</pre>"; ?>
 							
 							<form action="show.php" method="get">
 								<span>What is your first name?</span><input type="text" name="firstname"><br>
